@@ -1,0 +1,14 @@
+1754300330079: New Request for / by ::1
+1754300330120: New Request for /favicon.ico by ::1
+1754300394284: New Request for / and method GET
+1754300394312: New Request for /favicon.ico and method GET
+1754300408329: New Request for / and method GET
+1754300408350: New Request for /favicon.ico and method GET
+1754300844648: New Request for / and method GET
+1754300844673: New Request for /favicon.ico and method GET
+1754300847218: New Request for / and method GET
+1754300847239: New Request for /favicon.ico and method GET
+1754300866232: New Request for /about and method GET
+1754300866259: New Request for /favicon.ico and method GET
+1754300879081: New Request for / and method GET
+1754300879114: New Request for /favicon.ico and method GET
