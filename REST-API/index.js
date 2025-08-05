@@ -6,6 +6,8 @@ const PORT = 8000;
 
 //routes
 app.get("/api/users", (req, res) => {
+    res.setHeader("myName" , "sachin");
+    console.log(req.headers);
     return res.json(users);
 })
 
