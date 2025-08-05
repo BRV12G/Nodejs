@@ -60,9 +60,12 @@ app.route("/api/users/:id")
 app.post("/api/users", (req, res) => {
     const body = req.body; // getting the body of the request
     console.log(body);
+    if(!body.first_name || !body.last_name || !body.email || !body.gender || !body.ip_address){
+        return res.status(400).json({status: "error", message: "all fields are required"});
+    }
     users.push({...body, id: users.length + 1}); // adding the user to the list
     fs.writeFile("./MOCK_DATA.json", JSON.stringify(users), (err, data) => { // writing the list to a file
-            return res.json({status: "sucesss", id: users.length}); // returning the response
+            return res.status(201).json({status: "sucesss", id: users.length}); // returning the response
     });
 })
 
