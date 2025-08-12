@@ -15,3 +15,6 @@ npm i uuid
 
 
 npm i cookie-parser
+
+
+npm i jsonwebtokens jwt.io
