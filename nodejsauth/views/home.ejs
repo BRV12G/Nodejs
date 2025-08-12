@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+  </head>
+  <body>
+    <h1>heyy</h1>
+    <h3>heyy again</h3>
+
+    <% url.forEach(url => { %>
+      <li><%= url.shortId %></li>
+    <% }) %>
+
+    <h1>hi</h1>
+    <% url.forEach(url => { %>
+      <li><%= url.redirectURL %></li>
+    <% }) %>
+
+    <h1>hi</h1>
+    <% url.forEach(url => { %>
+      <li><%= url.visitHistory.length %></li>
+    <% }) %>
+    
+  </body>
+</html>
